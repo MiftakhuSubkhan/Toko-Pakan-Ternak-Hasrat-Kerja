@@ -1,5 +1,5 @@
 import React from "react";
-import { Star, MessageSquarePlus } from "lucide-react";
+import { Star } from "lucide-react";
 
 interface Testimonial {
   id: number;
@@ -82,18 +82,6 @@ export default function Testimonials() {
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="mt-12 text-center">
-          <a
-            href="https://maps.google.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 px-6 py-3 rounded-xl font-semibold text-sm text-emerald-800 bg-emerald-100/80 hover:bg-emerald-200 border border-emerald-300/60 transition-all shadow-sm hover:shadow"
-          >
-            <MessageSquarePlus className="w-4 h-4 text-emerald-700" />
-            <span>Tulis Ulasan Pengalaman Anda</span>
-          </a>
         </div>
       </div>
     </section>
