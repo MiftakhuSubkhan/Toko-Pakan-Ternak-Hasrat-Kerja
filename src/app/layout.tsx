@@ -10,7 +10,7 @@ const jakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://tokopakanhasratkerja.com"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://toko-pakan-hasrat-kerja.vercel.app"
   ),
   title: {
     default: "Toko Pakan Hasrat Kerja | Distributor Pakan Ternak Boyolali",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Toko Pakan Hasrat Kerja | Distributor Pakan Ternak Boyolali",
     description:
       "Pusat pasokan pakan ternak eceran & grosir tonase di Senggrong, Andong, Boyolali. Kualitas pabrikan terpercaya siap kirim langsung ke kandang.",
-    url: "/",
+    url: "https://toko-pakan-hasrat-kerja.vercel.app",
     siteName: "Toko Pakan Hasrat Kerja",
     images: [
       {
@@ -43,6 +43,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: "Toko Pakan Hasrat Kerja Boyolali",
+        type: "image/jpeg",
       },
     ],
     locale: "id_ID",
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Toko Pakan Hasrat Kerja",
+    title: "Toko Pakan Hasrat Kerja | Distributor Pakan Ternak Boyolali",
     description:
       "Distributor pakan ternak & konsentrat Boyolali - Siap suplai tonase & eceran.",
     images: ["/images/hero-3.jpeg"],
@@ -63,10 +64,10 @@ const jsonLd = {
   name: "Toko Pakan Hasrat Kerja",
   description:
     "Pusat pasokan pakan ternak sapi penggemukan, perah, konsentrat & pollard gandum di Senggrong, Andong, Boyolali. Melayani eceran sak hingga pengiriman armada tonase langsung ke kandang.",
-  url: "https://tokopakanhasratkerja.com",
+  url: "https://toko-pakan-hasrat-kerja.vercel.app",
   telephone: "+6285718756267",
-  image: "https://tokopakanhasratkerja.com/images/hero-3.jpeg",
-  logo: "https://tokopakanhasratkerja.com/images/logo-hk.png",
+  image: "https://toko-pakan-hasrat-kerja.vercel.app/images/hero-3.jpeg",
+  logo: "https://toko-pakan-hasrat-kerja.vercel.app/images/logo-hk.png",
   priceRange: "$$",
   address: {
     "@type": "PostalAddress",
